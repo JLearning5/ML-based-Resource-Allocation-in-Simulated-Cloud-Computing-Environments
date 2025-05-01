@@ -15,7 +15,7 @@
         DEFAULT_TIMESCALE: 1,
         MAX_TIMESCALE: 10,
         MIN_TIMESCALE: 0.1,
-        JSON_PATH: './ml_rasc/improved_cloud_allocation_metrics.json' // ENSURE THIS PATH IS CORRECT
+        JSON_PATH: './improved_cloud_allocation_metrics.json' // ENSURE THIS PATH IS CORRECT
     };
 
     // --- Core Three.js Setup ---
