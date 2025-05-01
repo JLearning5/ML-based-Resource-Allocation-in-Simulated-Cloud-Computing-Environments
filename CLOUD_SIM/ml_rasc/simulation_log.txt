@@ -1,0 +1,511 @@
+--- Initializing Simulation ---
+Host 0 created. CPU: 16, RAM: 32
+Host 1 created. CPU: 16, RAM: 32
+Host 2 created. CPU: 16, RAM: 32
+Host 3 created. CPU: 16, RAM: 32
+Host 4 created. CPU: 16, RAM: 32
+
+--- Running Simulation for 100 time units ---
+
+--- Starting VM Generator (Arrival Rate λ=0.8, Avg Duration μ=40.0) ---
+
+0.59: VM_ARRIVAL - VM 0 arrived requesting (1 CPU, 2 RAM) for 120.40 time units.
+0.59: Host 2: Allocated VM 0 (1 CPU, 2 RAM). Usage: 1/16 CPU, 2/32 RAM
+0.59: VM 0: Successfully placed on Host 2. Running for 120.40 time units.
+
+2.23: VM_ARRIVAL - VM 1 arrived requesting (2 CPU, 7 RAM) for 36.52 time units.
+2.23: Host 0: Allocated VM 1 (2 CPU, 7 RAM). Usage: 2/16 CPU, 7/32 RAM
+2.23: VM 1: Successfully placed on Host 0. Running for 36.52 time units.
+
+2.44: VM_ARRIVAL - VM 2 arrived requesting (1 CPU, 6 RAM) for 6.78 time units.
+2.44: Host 3: Allocated VM 2 (1 CPU, 6 RAM). Usage: 1/16 CPU, 6/32 RAM
+2.44: VM 2: Successfully placed on Host 3. Running for 6.78 time units.
+
+2.52: VM_ARRIVAL - VM 3 arrived requesting (1 CPU, 3 RAM) for 80.45 time units.
+2.52: Host 1: Allocated VM 3 (1 CPU, 3 RAM). Usage: 1/16 CPU, 3/32 RAM
+2.52: VM 3: Successfully placed on Host 1. Running for 80.45 time units.
+
+3.67: VM_ARRIVAL - VM 4 arrived requesting (1 CPU, 6 RAM) for 49.25 time units.
+3.67: Host 1: Allocated VM 4 (1 CPU, 6 RAM). Usage: 2/16 CPU, 9/32 RAM
+3.67: VM 4: Successfully placed on Host 1. Running for 49.25 time units.
+
+3.69: VM_ARRIVAL - VM 5 arrived requesting (4 CPU, 3 RAM) for 140.14 time units.
+3.69: Host 3: Allocated VM 5 (4 CPU, 3 RAM). Usage: 5/16 CPU, 9/32 RAM
+3.69: VM 5: Successfully placed on Host 3. Running for 140.14 time units.
+
+5.93: VM_ARRIVAL - VM 6 arrived requesting (1 CPU, 8 RAM) for 9.55 time units.
+5.93: Host 1: Allocated VM 6 (1 CPU, 8 RAM). Usage: 3/16 CPU, 17/32 RAM
+5.93: VM 6: Successfully placed on Host 1. Running for 9.55 time units.
+
+6.18: VM_ARRIVAL - VM 7 arrived requesting (3 CPU, 4 RAM) for 8.10 time units.
+6.18: Host 1: Allocated VM 7 (3 CPU, 4 RAM). Usage: 6/16 CPU, 21/32 RAM
+6.18: VM 7: Successfully placed on Host 1. Running for 8.10 time units.
+
+6.63: VM_ARRIVAL - VM 8 arrived requesting (3 CPU, 2 RAM) for 29.76 time units.
+6.63: Host 0: Allocated VM 8 (3 CPU, 2 RAM). Usage: 5/16 CPU, 9/32 RAM
+6.63: VM 8: Successfully placed on Host 0. Running for 29.76 time units.
+
+7.34: VM_ARRIVAL - VM 9 arrived requesting (3 CPU, 8 RAM) for 13.77 time units.
+7.34: Host 2: Allocated VM 9 (3 CPU, 8 RAM). Usage: 4/16 CPU, 10/32 RAM
+7.34: VM 9: Successfully placed on Host 2. Running for 13.77 time units.
+
+8.52: VM_ARRIVAL - VM 10 arrived requesting (1 CPU, 7 RAM) for 6.01 time units.
+8.52: Host 3: Allocated VM 10 (1 CPU, 7 RAM). Usage: 6/16 CPU, 16/32 RAM
+8.52: VM 10: Successfully placed on Host 3. Running for 6.01 time units.
+
+8.95: VM_ARRIVAL - VM 11 arrived requesting (4 CPU, 2 RAM) for 18.25 time units.
+8.95: Host 4: Allocated VM 11 (4 CPU, 2 RAM). Usage: 4/16 CPU, 2/32 RAM
+8.95: VM 11: Successfully placed on Host 4. Running for 18.25 time units.
+9.23: VM 2: Lifetime ended. Departing from Host 3.
+9.23: Host 3: Deallocated VM 2 (1 CPU, 6 RAM). Usage: 5/16 CPU, 10/32 RAM
+
+9.71: VM_ARRIVAL - VM 12 arrived requesting (3 CPU, 6 RAM) for 61.52 time units.
+9.71: Host 1: Allocated VM 12 (3 CPU, 6 RAM). Usage: 9/16 CPU, 27/32 RAM
+9.71: VM 12: Successfully placed on Host 1. Running for 61.52 time units.
+
+9.99: VM_ARRIVAL - VM 13 arrived requesting (1 CPU, 7 RAM) for 28.88 time units.
+9.99: Host 2: Allocated VM 13 (1 CPU, 7 RAM). Usage: 5/16 CPU, 17/32 RAM
+9.99: VM 13: Successfully placed on Host 2. Running for 28.88 time units.
+
+11.11: VM_ARRIVAL - VM 14 arrived requesting (1 CPU, 8 RAM) for 1.90 time units.
+11.11: Host 2: Allocated VM 14 (1 CPU, 8 RAM). Usage: 6/16 CPU, 25/32 RAM
+11.11: VM 14: Successfully placed on Host 2. Running for 1.90 time units.
+
+12.28: VM_ARRIVAL - VM 15 arrived requesting (4 CPU, 4 RAM) for 7.48 time units.
+12.28: Host 3: Allocated VM 15 (4 CPU, 4 RAM). Usage: 9/16 CPU, 14/32 RAM
+12.28: VM 15: Successfully placed on Host 3. Running for 7.48 time units.
+
+12.37: VM_ARRIVAL - VM 16 arrived requesting (3 CPU, 3 RAM) for 118.95 time units.
+12.37: Host 2: Allocated VM 16 (3 CPU, 3 RAM). Usage: 9/16 CPU, 28/32 RAM
+12.37: VM 16: Successfully placed on Host 2. Running for 118.95 time units.
+13.02: VM 14: Lifetime ended. Departing from Host 2.
+13.02: Host 2: Deallocated VM 14 (1 CPU, 8 RAM). Usage: 8/16 CPU, 20/32 RAM
+14.28: VM 7: Lifetime ended. Departing from Host 1.
+14.28: Host 1: Deallocated VM 7 (3 CPU, 4 RAM). Usage: 6/16 CPU, 23/32 RAM
+14.53: VM 10: Lifetime ended. Departing from Host 3.
+14.53: Host 3: Deallocated VM 10 (1 CPU, 7 RAM). Usage: 8/16 CPU, 7/32 RAM
+15.47: VM 6: Lifetime ended. Departing from Host 1.
+15.47: Host 1: Deallocated VM 6 (1 CPU, 8 RAM). Usage: 5/16 CPU, 15/32 RAM
+
+16.58: VM_ARRIVAL - VM 17 arrived requesting (3 CPU, 7 RAM) for 66.09 time units.
+16.58: Host 0: Allocated VM 17 (3 CPU, 7 RAM). Usage: 8/16 CPU, 16/32 RAM
+16.58: VM 17: Successfully placed on Host 0. Running for 66.09 time units.
+
+17.04: VM_ARRIVAL - VM 18 arrived requesting (2 CPU, 6 RAM) for 4.11 time units.
+17.04: Host 1: Allocated VM 18 (2 CPU, 6 RAM). Usage: 7/16 CPU, 21/32 RAM
+17.04: VM 18: Successfully placed on Host 1. Running for 4.11 time units.
+
+18.48: VM_ARRIVAL - VM 19 arrived requesting (4 CPU, 4 RAM) for 23.20 time units.
+18.48: Host 4: Allocated VM 19 (4 CPU, 4 RAM). Usage: 8/16 CPU, 6/32 RAM
+18.48: VM 19: Successfully placed on Host 4. Running for 23.20 time units.
+
+18.64: VM_ARRIVAL - VM 20 arrived requesting (3 CPU, 8 RAM) for 27.34 time units.
+18.64: Host 0: Allocated VM 20 (3 CPU, 8 RAM). Usage: 11/16 CPU, 24/32 RAM
+18.64: VM 20: Successfully placed on Host 0. Running for 27.34 time units.
+
+18.68: VM_ARRIVAL - VM 21 arrived requesting (1 CPU, 8 RAM) for 96.02 time units.
+18.68: Host 2: Allocated VM 21 (1 CPU, 8 RAM). Usage: 9/16 CPU, 28/32 RAM
+18.68: VM 21: Successfully placed on Host 2. Running for 96.02 time units.
+
+19.06: VM_ARRIVAL - VM 22 arrived requesting (1 CPU, 3 RAM) for 43.45 time units.
+19.06: Host 4: Allocated VM 22 (1 CPU, 3 RAM). Usage: 9/16 CPU, 9/32 RAM
+19.06: VM 22: Successfully placed on Host 4. Running for 43.45 time units.
+
+19.52: VM_ARRIVAL - VM 23 arrived requesting (3 CPU, 3 RAM) for 29.36 time units.
+19.52: Host 3: Allocated VM 23 (3 CPU, 3 RAM). Usage: 11/16 CPU, 10/32 RAM
+19.52: VM 23: Successfully placed on Host 3. Running for 29.36 time units.
+19.76: VM 15: Lifetime ended. Departing from Host 3.
+19.76: Host 3: Deallocated VM 15 (4 CPU, 4 RAM). Usage: 7/16 CPU, 6/32 RAM
+
+20.51: VM_ARRIVAL - VM 24 arrived requesting (4 CPU, 3 RAM) for 8.18 time units.
+20.51: Host 2: Allocated VM 24 (4 CPU, 3 RAM). Usage: 13/16 CPU, 31/32 RAM
+20.51: VM 24: Successfully placed on Host 2. Running for 8.18 time units.
+21.11: VM 9: Lifetime ended. Departing from Host 2.
+21.11: Host 2: Deallocated VM 9 (3 CPU, 8 RAM). Usage: 10/16 CPU, 23/32 RAM
+21.15: VM 18: Lifetime ended. Departing from Host 1.
+21.15: Host 1: Deallocated VM 18 (2 CPU, 6 RAM). Usage: 5/16 CPU, 15/32 RAM
+
+24.88: VM_ARRIVAL - VM 25 arrived requesting (3 CPU, 7 RAM) for 59.69 time units.
+24.88: Host 4: Allocated VM 25 (3 CPU, 7 RAM). Usage: 12/16 CPU, 16/32 RAM
+24.88: VM 25: Successfully placed on Host 4. Running for 59.69 time units.
+27.20: VM 11: Lifetime ended. Departing from Host 4.
+27.20: Host 4: Deallocated VM 11 (4 CPU, 2 RAM). Usage: 8/16 CPU, 14/32 RAM
+
+28.39: VM_ARRIVAL - VM 26 arrived requesting (4 CPU, 4 RAM) for 90.09 time units.
+28.39: Host 1: Allocated VM 26 (4 CPU, 4 RAM). Usage: 9/16 CPU, 19/32 RAM
+28.39: VM 26: Successfully placed on Host 1. Running for 90.09 time units.
+28.69: VM 24: Lifetime ended. Departing from Host 2.
+28.69: Host 2: Deallocated VM 24 (4 CPU, 3 RAM). Usage: 6/16 CPU, 20/32 RAM
+
+29.52: VM_ARRIVAL - VM 27 arrived requesting (2 CPU, 6 RAM) for 101.98 time units.
+29.52: Host 3: Allocated VM 27 (2 CPU, 6 RAM). Usage: 9/16 CPU, 12/32 RAM
+29.52: VM 27: Successfully placed on Host 3. Running for 101.98 time units.
+
+29.64: VM_ARRIVAL - VM 28 arrived requesting (1 CPU, 8 RAM) for 8.73 time units.
+29.64: Host 0: Allocated VM 28 (1 CPU, 8 RAM). Usage: 12/16 CPU, 32/32 RAM
+29.64: VM 28: Successfully placed on Host 0. Running for 8.73 time units.
+
+29.70: VM_ARRIVAL - VM 29 arrived requesting (2 CPU, 8 RAM) for 15.74 time units.
+29.70: Host 3: Allocated VM 29 (2 CPU, 8 RAM). Usage: 11/16 CPU, 20/32 RAM
+29.70: VM 29: Successfully placed on Host 3. Running for 15.74 time units.
+
+30.31: VM_ARRIVAL - VM 30 arrived requesting (4 CPU, 5 RAM) for 12.66 time units.
+30.31: Host 4: Allocated VM 30 (4 CPU, 5 RAM). Usage: 12/16 CPU, 19/32 RAM
+30.31: VM 30: Successfully placed on Host 4. Running for 12.66 time units.
+
+32.52: VM_ARRIVAL - VM 31 arrived requesting (3 CPU, 6 RAM) for 17.65 time units.
+32.52: Host 1: Allocated VM 31 (3 CPU, 6 RAM). Usage: 12/16 CPU, 25/32 RAM
+32.52: VM 31: Successfully placed on Host 1. Running for 17.65 time units.
+
+32.93: VM_ARRIVAL - VM 32 arrived requesting (1 CPU, 7 RAM) for 31.30 time units.
+32.93: Host 4: Allocated VM 32 (1 CPU, 7 RAM). Usage: 13/16 CPU, 26/32 RAM
+32.93: VM 32: Successfully placed on Host 4. Running for 31.30 time units.
+
+33.12: VM_ARRIVAL - VM 33 arrived requesting (3 CPU, 2 RAM) for 64.82 time units.
+33.12: Host 2: Allocated VM 33 (3 CPU, 2 RAM). Usage: 9/16 CPU, 22/32 RAM
+33.12: VM 33: Successfully placed on Host 2. Running for 64.82 time units.
+
+33.22: VM_ARRIVAL - VM 34 arrived requesting (4 CPU, 2 RAM) for 173.37 time units.
+33.22: Host 2: Allocated VM 34 (4 CPU, 2 RAM). Usage: 13/16 CPU, 24/32 RAM
+33.22: VM 34: Successfully placed on Host 2. Running for 173.37 time units.
+
+35.07: VM_ARRIVAL - VM 35 arrived requesting (2 CPU, 6 RAM) for 8.86 time units.
+35.07: Host 1: Allocated VM 35 (2 CPU, 6 RAM). Usage: 14/16 CPU, 31/32 RAM
+35.07: VM 35: Successfully placed on Host 1. Running for 8.86 time units.
+
+35.07: VM_ARRIVAL - VM 36 arrived requesting (3 CPU, 8 RAM) for 67.60 time units.
+35.07: Host 2: Allocated VM 36 (3 CPU, 8 RAM). Usage: 16/16 CPU, 32/32 RAM
+35.07: VM 36: Successfully placed on Host 2. Running for 67.60 time units.
+36.39: VM 8: Lifetime ended. Departing from Host 0.
+36.39: Host 0: Deallocated VM 8 (3 CPU, 2 RAM). Usage: 9/16 CPU, 30/32 RAM
+
+36.61: VM_ARRIVAL - VM 37 arrived requesting (2 CPU, 4 RAM) for 52.23 time units.
+36.61: Host 3: Allocated VM 37 (2 CPU, 4 RAM). Usage: 13/16 CPU, 24/32 RAM
+36.61: VM 37: Successfully placed on Host 3. Running for 52.23 time units.
+38.37: VM 28: Lifetime ended. Departing from Host 0.
+38.37: Host 0: Deallocated VM 28 (1 CPU, 8 RAM). Usage: 8/16 CPU, 22/32 RAM
+
+38.45: VM_ARRIVAL - VM 38 arrived requesting (1 CPU, 6 RAM) for 3.08 time units.
+38.45: Host 3: Allocated VM 38 (1 CPU, 6 RAM). Usage: 14/16 CPU, 30/32 RAM
+38.45: VM 38: Successfully placed on Host 3. Running for 3.08 time units.
+38.75: VM 1: Lifetime ended. Departing from Host 0.
+38.75: Host 0: Deallocated VM 1 (2 CPU, 7 RAM). Usage: 6/16 CPU, 15/32 RAM
+38.87: VM 13: Lifetime ended. Departing from Host 2.
+38.87: Host 2: Deallocated VM 13 (1 CPU, 7 RAM). Usage: 15/16 CPU, 25/32 RAM
+
+39.01: VM_ARRIVAL - VM 39 arrived requesting (1 CPU, 4 RAM) for 4.93 time units.
+39.01: Host 2: Allocated VM 39 (1 CPU, 4 RAM). Usage: 16/16 CPU, 29/32 RAM
+39.01: VM 39: Successfully placed on Host 2. Running for 4.93 time units.
+
+41.49: VM_ARRIVAL - VM 40 arrived requesting (2 CPU, 6 RAM) for 39.05 time units.
+41.49: Host 0: Allocated VM 40 (2 CPU, 6 RAM). Usage: 8/16 CPU, 21/32 RAM
+41.49: VM 40: Successfully placed on Host 0. Running for 39.05 time units.
+41.53: VM 38: Lifetime ended. Departing from Host 3.
+41.53: Host 3: Deallocated VM 38 (1 CPU, 6 RAM). Usage: 13/16 CPU, 24/32 RAM
+41.68: VM 19: Lifetime ended. Departing from Host 4.
+41.68: Host 4: Deallocated VM 19 (4 CPU, 4 RAM). Usage: 9/16 CPU, 22/32 RAM
+
+41.99: VM_ARRIVAL - VM 41 arrived requesting (4 CPU, 8 RAM) for 2.63 time units.
+41.99: Host 0: Allocated VM 41 (4 CPU, 8 RAM). Usage: 12/16 CPU, 29/32 RAM
+41.99: VM 41: Successfully placed on Host 0. Running for 2.63 time units.
+
+42.46: VM_ARRIVAL - VM 42 arrived requesting (2 CPU, 3 RAM) for 15.73 time units.
+42.46: Host 3: Allocated VM 42 (2 CPU, 3 RAM). Usage: 15/16 CPU, 27/32 RAM
+42.46: VM 42: Successfully placed on Host 3. Running for 15.73 time units.
+42.98: VM 30: Lifetime ended. Departing from Host 4.
+42.98: Host 4: Deallocated VM 30 (4 CPU, 5 RAM). Usage: 5/16 CPU, 17/32 RAM
+43.93: VM 35: Lifetime ended. Departing from Host 1.
+43.93: Host 1: Deallocated VM 35 (2 CPU, 6 RAM). Usage: 12/16 CPU, 25/32 RAM
+43.93: VM 39: Lifetime ended. Departing from Host 2.
+43.93: Host 2: Deallocated VM 39 (1 CPU, 4 RAM). Usage: 15/16 CPU, 25/32 RAM
+
+44.10: VM_ARRIVAL - VM 43 arrived requesting (2 CPU, 4 RAM) for 40.60 time units.
+44.10: Host 4: Allocated VM 43 (2 CPU, 4 RAM). Usage: 7/16 CPU, 21/32 RAM
+44.10: VM 43: Successfully placed on Host 4. Running for 40.60 time units.
+44.62: VM 41: Lifetime ended. Departing from Host 0.
+44.62: Host 0: Deallocated VM 41 (4 CPU, 8 RAM). Usage: 8/16 CPU, 21/32 RAM
+45.44: VM 29: Lifetime ended. Departing from Host 3.
+45.44: Host 3: Deallocated VM 29 (2 CPU, 8 RAM). Usage: 13/16 CPU, 19/32 RAM
+45.98: VM 20: Lifetime ended. Departing from Host 0.
+45.98: Host 0: Deallocated VM 20 (3 CPU, 8 RAM). Usage: 5/16 CPU, 13/32 RAM
+
+46.82: VM_ARRIVAL - VM 44 arrived requesting (4 CPU, 3 RAM) for 25.56 time units.
+46.82: Host 4: Allocated VM 44 (4 CPU, 3 RAM). Usage: 11/16 CPU, 24/32 RAM
+46.82: VM 44: Successfully placed on Host 4. Running for 25.56 time units.
+
+46.98: VM_ARRIVAL - VM 45 arrived requesting (2 CPU, 7 RAM) for 49.97 time units.
+46.98: Host 3: Allocated VM 45 (2 CPU, 7 RAM). Usage: 15/16 CPU, 26/32 RAM
+46.98: VM 45: Successfully placed on Host 3. Running for 49.97 time units.
+
+48.77: VM_ARRIVAL - VM 46 arrived requesting (3 CPU, 5 RAM) for 32.96 time units.
+48.77: Host 4: Allocated VM 46 (3 CPU, 5 RAM). Usage: 14/16 CPU, 29/32 RAM
+48.77: VM 46: Successfully placed on Host 4. Running for 32.96 time units.
+48.89: VM 23: Lifetime ended. Departing from Host 3.
+48.89: Host 3: Deallocated VM 23 (3 CPU, 3 RAM). Usage: 12/16 CPU, 23/32 RAM
+50.17: VM 31: Lifetime ended. Departing from Host 1.
+50.17: Host 1: Deallocated VM 31 (3 CPU, 6 RAM). Usage: 9/16 CPU, 19/32 RAM
+
+50.61: VM_ARRIVAL - VM 47 arrived requesting (2 CPU, 3 RAM) for 27.23 time units.
+50.61: Host 0: Allocated VM 47 (2 CPU, 3 RAM). Usage: 7/16 CPU, 16/32 RAM
+50.61: VM 47: Successfully placed on Host 0. Running for 27.23 time units.
+
+51.54: VM_ARRIVAL - VM 48 arrived requesting (2 CPU, 6 RAM) for 22.31 time units.
+51.54: Host 1: Allocated VM 48 (2 CPU, 6 RAM). Usage: 11/16 CPU, 25/32 RAM
+51.54: VM 48: Successfully placed on Host 1. Running for 22.31 time units.
+
+51.57: VM_ARRIVAL - VM 49 arrived requesting (1 CPU, 3 RAM) for 4.57 time units.
+51.57: Host 0: Allocated VM 49 (1 CPU, 3 RAM). Usage: 8/16 CPU, 19/32 RAM
+51.57: VM 49: Successfully placed on Host 0. Running for 4.57 time units.
+
+51.61: VM_ARRIVAL - VM 50 arrived requesting (3 CPU, 2 RAM) for 40.47 time units.
+51.61: Host 0: Allocated VM 50 (3 CPU, 2 RAM). Usage: 11/16 CPU, 21/32 RAM
+51.61: VM 50: Successfully placed on Host 0. Running for 40.47 time units.
+
+52.08: VM_ARRIVAL - VM 51 arrived requesting (4 CPU, 3 RAM) for 28.42 time units.
+52.08: Host 0: Allocated VM 51 (4 CPU, 3 RAM). Usage: 15/16 CPU, 24/32 RAM
+52.08: VM 51: Successfully placed on Host 0. Running for 28.42 time units.
+52.92: VM 4: Lifetime ended. Departing from Host 1.
+52.92: Host 1: Deallocated VM 4 (1 CPU, 6 RAM). Usage: 10/16 CPU, 19/32 RAM
+
+55.06: VM_ARRIVAL - VM 52 arrived requesting (4 CPU, 3 RAM) for 11.47 time units.
+55.06: Host 3: Allocated VM 52 (4 CPU, 3 RAM). Usage: 16/16 CPU, 26/32 RAM
+55.06: VM 52: Successfully placed on Host 3. Running for 11.47 time units.
+
+55.72: VM_ARRIVAL - VM 53 arrived requesting (2 CPU, 2 RAM) for 56.35 time units.
+55.72: Host 1: Allocated VM 53 (2 CPU, 2 RAM). Usage: 12/16 CPU, 21/32 RAM
+55.72: VM 53: Successfully placed on Host 1. Running for 56.35 time units.
+
+56.04: VM_ARRIVAL - VM 54 arrived requesting (3 CPU, 5 RAM) for 3.20 time units.
+56.04: Host 1: Allocated VM 54 (3 CPU, 5 RAM). Usage: 15/16 CPU, 26/32 RAM
+56.04: VM 54: Successfully placed on Host 1. Running for 3.20 time units.
+56.14: VM 49: Lifetime ended. Departing from Host 0.
+56.14: Host 0: Deallocated VM 49 (1 CPU, 3 RAM). Usage: 14/16 CPU, 21/32 RAM
+
+56.47: VM_ARRIVAL - VM 55 arrived requesting (1 CPU, 7 RAM) for 7.03 time units.
+56.47: Host 0: Allocated VM 55 (1 CPU, 7 RAM). Usage: 15/16 CPU, 28/32 RAM
+56.47: VM 55: Successfully placed on Host 0. Running for 7.03 time units.
+58.19: VM 42: Lifetime ended. Departing from Host 3.
+58.19: Host 3: Deallocated VM 42 (2 CPU, 3 RAM). Usage: 14/16 CPU, 23/32 RAM
+59.25: VM 54: Lifetime ended. Departing from Host 1.
+59.25: Host 1: Deallocated VM 54 (3 CPU, 5 RAM). Usage: 12/16 CPU, 21/32 RAM
+
+59.79: VM_ARRIVAL - VM 56 arrived requesting (3 CPU, 8 RAM) for 66.04 time units.
+59.79: Host 1: Allocated VM 56 (3 CPU, 8 RAM). Usage: 15/16 CPU, 29/32 RAM
+59.79: VM 56: Successfully placed on Host 1. Running for 66.04 time units.
+
+61.04: VM_ARRIVAL - VM 57 arrived requesting (2 CPU, 6 RAM) for 82.06 time units.
+61.04: Host 3: Allocated VM 57 (2 CPU, 6 RAM). Usage: 16/16 CPU, 29/32 RAM
+61.04: VM 57: Successfully placed on Host 3. Running for 82.06 time units.
+62.51: VM 22: Lifetime ended. Departing from Host 4.
+62.51: Host 4: Deallocated VM 22 (1 CPU, 3 RAM). Usage: 13/16 CPU, 26/32 RAM
+
+63.08: VM_ARRIVAL - VM 58 arrived requesting (2 CPU, 4 RAM) for 8.26 time units.
+63.08: Host 4: Allocated VM 58 (2 CPU, 4 RAM). Usage: 15/16 CPU, 30/32 RAM
+63.08: VM 58: Successfully placed on Host 4. Running for 8.26 time units.
+63.50: VM 55: Lifetime ended. Departing from Host 0.
+63.50: Host 0: Deallocated VM 55 (1 CPU, 7 RAM). Usage: 14/16 CPU, 21/32 RAM
+64.23: VM 32: Lifetime ended. Departing from Host 4.
+64.23: Host 4: Deallocated VM 32 (1 CPU, 7 RAM). Usage: 14/16 CPU, 23/32 RAM
+
+65.87: VM_ARRIVAL - VM 59 arrived requesting (1 CPU, 5 RAM) for 31.00 time units.
+65.87: Host 4: Allocated VM 59 (1 CPU, 5 RAM). Usage: 15/16 CPU, 28/32 RAM
+65.87: VM 59: Successfully placed on Host 4. Running for 31.00 time units.
+66.53: VM 52: Lifetime ended. Departing from Host 3.
+66.53: Host 3: Deallocated VM 52 (4 CPU, 3 RAM). Usage: 12/16 CPU, 26/32 RAM
+
+67.93: VM_ARRIVAL - VM 60 arrived requesting (1 CPU, 2 RAM) for 90.57 time units.
+67.93: Host 1: Allocated VM 60 (1 CPU, 2 RAM). Usage: 16/16 CPU, 31/32 RAM
+67.93: VM 60: Successfully placed on Host 1. Running for 90.57 time units.
+
+68.40: VM_ARRIVAL - VM 61 arrived requesting (4 CPU, 5 RAM) for 4.66 time units.
+68.40: Host 3: Allocated VM 61 (4 CPU, 5 RAM). Usage: 16/16 CPU, 31/32 RAM
+68.40: VM 61: Successfully placed on Host 3. Running for 4.66 time units.
+
+68.73: VM_ARRIVAL - VM 62 arrived requesting (1 CPU, 3 RAM) for 22.28 time units.
+68.73: Host 4: Allocated VM 62 (1 CPU, 3 RAM). Usage: 16/16 CPU, 31/32 RAM
+68.73: VM 62: Successfully placed on Host 4. Running for 22.28 time units.
+
+70.86: VM_ARRIVAL - VM 63 arrived requesting (4 CPU, 4 RAM) for 78.85 time units.
+70.86: VM 63: Failed to place (Policy: round_robin). VM rejected.
+
+70.87: VM_ARRIVAL - VM 64 arrived requesting (3 CPU, 5 RAM) for 28.60 time units.
+70.87: VM 64: Failed to place (Policy: round_robin). VM rejected.
+71.23: VM 12: Lifetime ended. Departing from Host 1.
+71.23: Host 1: Deallocated VM 12 (3 CPU, 6 RAM). Usage: 13/16 CPU, 25/32 RAM
+71.34: VM 58: Lifetime ended. Departing from Host 4.
+71.34: Host 4: Deallocated VM 58 (2 CPU, 4 RAM). Usage: 14/16 CPU, 27/32 RAM
+
+71.54: VM_ARRIVAL - VM 65 arrived requesting (4 CPU, 3 RAM) for 10.05 time units.
+71.54: VM 65: Failed to place (Policy: round_robin). VM rejected.
+
+71.70: VM_ARRIVAL - VM 66 arrived requesting (3 CPU, 3 RAM) for 16.48 time units.
+71.70: Host 1: Allocated VM 66 (3 CPU, 3 RAM). Usage: 16/16 CPU, 28/32 RAM
+71.70: VM 66: Successfully placed on Host 1. Running for 16.48 time units.
+72.39: VM 44: Lifetime ended. Departing from Host 4.
+72.39: Host 4: Deallocated VM 44 (4 CPU, 3 RAM). Usage: 10/16 CPU, 24/32 RAM
+73.07: VM 61: Lifetime ended. Departing from Host 3.
+73.07: Host 3: Deallocated VM 61 (4 CPU, 5 RAM). Usage: 12/16 CPU, 26/32 RAM
+73.85: VM 48: Lifetime ended. Departing from Host 1.
+73.85: Host 1: Deallocated VM 48 (2 CPU, 6 RAM). Usage: 14/16 CPU, 22/32 RAM
+
+75.28: VM_ARRIVAL - VM 67 arrived requesting (1 CPU, 7 RAM) for 15.62 time units.
+75.28: Host 2: Allocated VM 67 (1 CPU, 7 RAM). Usage: 16/16 CPU, 32/32 RAM
+75.28: VM 67: Successfully placed on Host 2. Running for 15.62 time units.
+
+76.19: VM_ARRIVAL - VM 68 arrived requesting (4 CPU, 6 RAM) for 48.56 time units.
+76.19: Host 4: Allocated VM 68 (4 CPU, 6 RAM). Usage: 14/16 CPU, 30/32 RAM
+76.19: VM 68: Successfully placed on Host 4. Running for 48.56 time units.
+
+76.76: VM_ARRIVAL - VM 69 arrived requesting (1 CPU, 8 RAM) for 142.71 time units.
+76.76: Host 1: Allocated VM 69 (1 CPU, 8 RAM). Usage: 15/16 CPU, 30/32 RAM
+76.76: VM 69: Successfully placed on Host 1. Running for 142.71 time units.
+77.85: VM 47: Lifetime ended. Departing from Host 0.
+77.85: Host 0: Deallocated VM 47 (2 CPU, 3 RAM). Usage: 12/16 CPU, 18/32 RAM
+80.50: VM 51: Lifetime ended. Departing from Host 0.
+80.50: Host 0: Deallocated VM 51 (4 CPU, 3 RAM). Usage: 8/16 CPU, 15/32 RAM
+80.54: VM 40: Lifetime ended. Departing from Host 0.
+80.54: Host 0: Deallocated VM 40 (2 CPU, 6 RAM). Usage: 6/16 CPU, 9/32 RAM
+
+80.86: VM_ARRIVAL - VM 70 arrived requesting (1 CPU, 7 RAM) for 11.60 time units.
+80.86: Host 0: Allocated VM 70 (1 CPU, 7 RAM). Usage: 7/16 CPU, 16/32 RAM
+80.86: VM 70: Successfully placed on Host 0. Running for 11.60 time units.
+
+81.72: VM_ARRIVAL - VM 71 arrived requesting (2 CPU, 6 RAM) for 14.32 time units.
+81.72: Host 0: Allocated VM 71 (2 CPU, 6 RAM). Usage: 9/16 CPU, 22/32 RAM
+81.72: VM 71: Successfully placed on Host 0. Running for 14.32 time units.
+81.73: VM 46: Lifetime ended. Departing from Host 4.
+81.73: Host 4: Deallocated VM 46 (3 CPU, 5 RAM). Usage: 11/16 CPU, 25/32 RAM
+
+82.14: VM_ARRIVAL - VM 72 arrived requesting (1 CPU, 5 RAM) for 1.50 time units.
+82.14: Host 4: Allocated VM 72 (1 CPU, 5 RAM). Usage: 12/16 CPU, 30/32 RAM
+82.14: VM 72: Successfully placed on Host 4. Running for 1.50 time units.
+82.67: VM 17: Lifetime ended. Departing from Host 0.
+82.67: Host 0: Deallocated VM 17 (3 CPU, 7 RAM). Usage: 6/16 CPU, 15/32 RAM
+82.97: VM 3: Lifetime ended. Departing from Host 1.
+82.97: Host 1: Deallocated VM 3 (1 CPU, 3 RAM). Usage: 14/16 CPU, 27/32 RAM
+
+83.32: VM_ARRIVAL - VM 73 arrived requesting (3 CPU, 4 RAM) for 27.94 time units.
+83.32: Host 3: Allocated VM 73 (3 CPU, 4 RAM). Usage: 15/16 CPU, 30/32 RAM
+83.32: VM 73: Successfully placed on Host 3. Running for 27.94 time units.
+
+83.38: VM_ARRIVAL - VM 74 arrived requesting (3 CPU, 3 RAM) for 13.07 time units.
+83.38: Host 0: Allocated VM 74 (3 CPU, 3 RAM). Usage: 9/16 CPU, 18/32 RAM
+83.38: VM 74: Successfully placed on Host 0. Running for 13.07 time units.
+83.64: VM 72: Lifetime ended. Departing from Host 4.
+83.64: Host 4: Deallocated VM 72 (1 CPU, 5 RAM). Usage: 11/16 CPU, 25/32 RAM
+84.57: VM 25: Lifetime ended. Departing from Host 4.
+84.57: Host 4: Deallocated VM 25 (3 CPU, 7 RAM). Usage: 8/16 CPU, 18/32 RAM
+84.69: VM 43: Lifetime ended. Departing from Host 4.
+84.69: Host 4: Deallocated VM 43 (2 CPU, 4 RAM). Usage: 6/16 CPU, 14/32 RAM
+
+86.37: VM_ARRIVAL - VM 75 arrived requesting (3 CPU, 5 RAM) for 10.95 time units.
+86.37: Host 4: Allocated VM 75 (3 CPU, 5 RAM). Usage: 9/16 CPU, 19/32 RAM
+86.37: VM 75: Successfully placed on Host 4. Running for 10.95 time units.
+
+86.56: VM_ARRIVAL - VM 76 arrived requesting (1 CPU, 2 RAM) for 26.89 time units.
+86.56: Host 3: Allocated VM 76 (1 CPU, 2 RAM). Usage: 16/16 CPU, 32/32 RAM
+86.56: VM 76: Successfully placed on Host 3. Running for 26.89 time units.
+88.18: VM 66: Lifetime ended. Departing from Host 1.
+88.18: Host 1: Deallocated VM 66 (3 CPU, 3 RAM). Usage: 11/16 CPU, 24/32 RAM
+88.83: VM 37: Lifetime ended. Departing from Host 3.
+88.83: Host 3: Deallocated VM 37 (2 CPU, 4 RAM). Usage: 14/16 CPU, 28/32 RAM
+90.90: VM 67: Lifetime ended. Departing from Host 2.
+90.90: Host 2: Deallocated VM 67 (1 CPU, 7 RAM). Usage: 15/16 CPU, 25/32 RAM
+91.01: VM 62: Lifetime ended. Departing from Host 4.
+91.01: Host 4: Deallocated VM 62 (1 CPU, 3 RAM). Usage: 8/16 CPU, 16/32 RAM
+
+91.87: VM_ARRIVAL - VM 77 arrived requesting (1 CPU, 2 RAM) for 11.09 time units.
+91.87: Host 4: Allocated VM 77 (1 CPU, 2 RAM). Usage: 9/16 CPU, 18/32 RAM
+91.87: VM 77: Successfully placed on Host 4. Running for 11.09 time units.
+92.08: VM 50: Lifetime ended. Departing from Host 0.
+92.08: Host 0: Deallocated VM 50 (3 CPU, 2 RAM). Usage: 6/16 CPU, 16/32 RAM
+92.46: VM 70: Lifetime ended. Departing from Host 0.
+92.46: Host 0: Deallocated VM 70 (1 CPU, 7 RAM). Usage: 5/16 CPU, 9/32 RAM
+
+93.26: VM_ARRIVAL - VM 78 arrived requesting (3 CPU, 3 RAM) for 57.36 time units.
+93.26: Host 4: Allocated VM 78 (3 CPU, 3 RAM). Usage: 12/16 CPU, 21/32 RAM
+93.26: VM 78: Successfully placed on Host 4. Running for 57.36 time units.
+
+93.60: VM_ARRIVAL - VM 79 arrived requesting (2 CPU, 4 RAM) for 52.11 time units.
+93.60: Host 3: Allocated VM 79 (2 CPU, 4 RAM). Usage: 16/16 CPU, 32/32 RAM
+93.60: VM 79: Successfully placed on Host 3. Running for 52.11 time units.
+
+94.18: VM_ARRIVAL - VM 80 arrived requesting (3 CPU, 6 RAM) for 40.02 time units.
+94.18: Host 4: Allocated VM 80 (3 CPU, 6 RAM). Usage: 15/16 CPU, 27/32 RAM
+94.18: VM 80: Successfully placed on Host 4. Running for 40.02 time units.
+
+95.43: VM_ARRIVAL - VM 81 arrived requesting (3 CPU, 7 RAM) for 30.70 time units.
+95.43: Host 0: Allocated VM 81 (3 CPU, 7 RAM). Usage: 8/16 CPU, 16/32 RAM
+95.43: VM 81: Successfully placed on Host 0. Running for 30.70 time units.
+
+95.55: VM_ARRIVAL - VM 82 arrived requesting (2 CPU, 4 RAM) for 72.15 time units.
+95.55: Host 0: Allocated VM 82 (2 CPU, 4 RAM). Usage: 10/16 CPU, 20/32 RAM
+95.55: VM 82: Successfully placed on Host 0. Running for 72.15 time units.
+
+96.03: VM_ARRIVAL - VM 83 arrived requesting (2 CPU, 4 RAM) for 8.26 time units.
+96.03: Host 0: Allocated VM 83 (2 CPU, 4 RAM). Usage: 12/16 CPU, 24/32 RAM
+96.03: VM 83: Successfully placed on Host 0. Running for 8.26 time units.
+96.04: VM 71: Lifetime ended. Departing from Host 0.
+96.04: Host 0: Deallocated VM 71 (2 CPU, 6 RAM). Usage: 10/16 CPU, 18/32 RAM
+
+96.08: VM_ARRIVAL - VM 84 arrived requesting (3 CPU, 3 RAM) for 35.75 time units.
+96.08: Host 0: Allocated VM 84 (3 CPU, 3 RAM). Usage: 13/16 CPU, 21/32 RAM
+96.08: VM 84: Successfully placed on Host 0. Running for 35.75 time units.
+96.45: VM 74: Lifetime ended. Departing from Host 0.
+96.45: Host 0: Deallocated VM 74 (3 CPU, 3 RAM). Usage: 10/16 CPU, 18/32 RAM
+96.87: VM 59: Lifetime ended. Departing from Host 4.
+96.87: Host 4: Deallocated VM 59 (1 CPU, 5 RAM). Usage: 14/16 CPU, 22/32 RAM
+96.95: VM 45: Lifetime ended. Departing from Host 3.
+96.95: Host 3: Deallocated VM 45 (2 CPU, 7 RAM). Usage: 14/16 CPU, 25/32 RAM
+97.32: VM 75: Lifetime ended. Departing from Host 4.
+97.32: Host 4: Deallocated VM 75 (3 CPU, 5 RAM). Usage: 11/16 CPU, 17/32 RAM
+
+97.50: VM_ARRIVAL - VM 85 arrived requesting (3 CPU, 8 RAM) for 0.67 time units.
+97.50: Host 0: Allocated VM 85 (3 CPU, 8 RAM). Usage: 13/16 CPU, 26/32 RAM
+97.50: VM 85: Successfully placed on Host 0. Running for 0.67 time units.
+97.94: VM 33: Lifetime ended. Departing from Host 2.
+97.94: Host 2: Deallocated VM 33 (3 CPU, 2 RAM). Usage: 12/16 CPU, 23/32 RAM
+98.17: VM 85: Lifetime ended. Departing from Host 0.
+98.17: Host 0: Deallocated VM 85 (3 CPU, 8 RAM). Usage: 10/16 CPU, 18/32 RAM
+
+98.40: VM_ARRIVAL - VM 86 arrived requesting (4 CPU, 8 RAM) for 10.27 time units.
+98.40: Host 2: Allocated VM 86 (4 CPU, 8 RAM). Usage: 16/16 CPU, 31/32 RAM
+98.40: VM 86: Successfully placed on Host 2. Running for 10.27 time units.
+
+99.69: VM_ARRIVAL - VM 87 arrived requesting (3 CPU, 8 RAM) for 7.66 time units.
+99.69: Host 1: Allocated VM 87 (3 CPU, 8 RAM). Usage: 14/16 CPU, 32/32 RAM
+99.69: VM 87: Successfully placed on Host 1. Running for 7.66 time units.
+
+--- Simulation Ended at Time: 100.00 ---
+Saved metrics to 'improved_cloud_allocation_metrics.csv' and '...json'
+Saved summary statistics to 'summary_statistics.json'
+Saved VM-Host mapping to 'vm_host_mapping.csv'
+
+--- First 5 Metric Records ---
+       time event_type  vm_id  required_cpu  required_ram  host_id  \
+0  0.586585  placement      0             1             2        2   
+1  2.232517  placement      1             2             7        0   
+2  2.444548  placement      2             1             6        3   
+3  2.519347  placement      3             1             3        1   
+4  3.668199  placement      4             1             6        1   
+
+   host_cpu_util_after  host_ram_util_after  sla_violated_after  \
+0                0.062                0.062               False   
+1                0.125                0.219               False   
+2                0.062                0.188               False   
+3                0.062                0.094               False   
+4                0.125                0.281               False   
+
+   placement_latency_ms  decision_latency_ms  allocation_success       policy  \
+0                 19.80                 0.02                   1  round_robin   
+1                 37.07                 0.01                   1  round_robin   
+2                 11.27                 0.01                   1  round_robin   
+3                 30.21                 0.01                   1  round_robin   
+4                 38.64                 0.01                   1  round_robin   
+
+   vm_duration  
+0       120.40  
+1        36.52  
+2         6.78  
+3        80.45  
+4        49.25  
