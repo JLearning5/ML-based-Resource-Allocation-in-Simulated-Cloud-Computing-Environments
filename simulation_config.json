@@ -1,0 +1,23 @@
+{
+    "NUM_HOSTS": 5,
+    "HOST_CPU": 16,
+    "HOST_RAM": 32,
+    "VM_CPU_RANGE": [
+        1,
+        4
+    ],
+    "VM_RAM_RANGE": [
+        2,
+        8
+    ],
+    "VM_ARRIVAL_RATE": 0.8,
+    "AVG_VM_DURATION": 40.0,
+    "SLA_CPU_THRESHOLD": 0.9,
+    "PLACEMENT_LATENCY_RANGE": [
+        10,
+        50
+    ],
+    "POLICY": "round_robin",
+    "SIM_DURATION": 100,
+    "SEED": 42
+}

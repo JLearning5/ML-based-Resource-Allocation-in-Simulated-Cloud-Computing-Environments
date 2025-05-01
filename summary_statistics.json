@@ -1,0 +1,10 @@
+{
+    "total_vms": 88,
+    "successful_placements": 85,
+    "rejections": 3,
+    "avg_decision_latency_ms": 0.023176470588235295,
+    "avg_placement_latency_ms": 28.842117647058828,
+    "avg_cpu_util": 0.6735176470588234,
+    "avg_ram_util": 0.6893176470588235,
+    "total_sla_violations": 23
+}
